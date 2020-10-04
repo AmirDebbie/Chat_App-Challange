@@ -1,0 +1,29 @@
+{
+  "name": "Chat_App-Challange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmirDebbie/Chat_App-Challange.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmirDebbie/Chat_App-Challange/issues"
+  },
+  "homepage": "https://github.com/AmirDebbie/Chat_App-Challange#readme",
+  "devDependencies": {
+    "nock": "^13.0.4",
+    "nock-puppeteer": "^1.0.2",
+    "puppeteer": "^5.3.1",
+    "supertest": "^5.0.0"
+  },
+  "dependencies": {
+    "jest": "^26.4.2"
+  }
+}
