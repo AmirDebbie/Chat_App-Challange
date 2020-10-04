@@ -24,6 +24,6 @@
     "supertest": "^5.0.0"
   },
   "dependencies": {
-    "jest": "^26.4.2"
+    "jest": "^24.9.0"
   }
 }
