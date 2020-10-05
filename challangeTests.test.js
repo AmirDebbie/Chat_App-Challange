@@ -8,7 +8,7 @@ const app = require('../_cloned-app/server/app');
 describe('Server Tests', () => {
   it('should add and get messages to and from messages array', async () => {
     const data = {
-      message: 'Hello',
+      body: 'Hello',
       user: 'Roy'
     };
     const firstRes = await request(app).get('/messages').expect(200);
@@ -38,15 +38,15 @@ describe("Client Tests", () => {
   beforeEach(() => {
     mockMessages = [
       {
-        message: "hello",
+        body: "hello",
         user: "Amir",
       },
       {
-        message: "hey",
+        body: "hey",
         user: "Matan",
       },
       {
-        message: "bye",
+        body: "bye",
         user: "Amir",
       },
     ];
